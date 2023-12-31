@@ -1,0 +1,63 @@
+body
+{
+    background-color: cornsilk;
+}
+.img1
+{
+width: 100%;
+height: 200px;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: blanchedalmond;
+}
+#search
+{
+    width : 60%;
+    border-radius: 25px;
+    height : 200%;
+    border: none;
+    padding: 10PX;
+}
+.set1
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(85, 79, 79);
+    width :30%;
+    height : 800px;
+    padding: 10px;
+    border-radius: 5%;
+    color:azure; 
+    box-shadow: 5px 5px 10px 5px rgb(59, 55, 48);
+}
+.set1 :hover
+{
+    box-shadow: 5px 5px 10px 5px rgb(59, 55, 48);
+}
+.set1 > button 
+{
+    background-color: orange;
+    border-radius: 15%;
+}
+.main
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.conclusion
+{
+    display: flex;
+    background-color:black;
+    align-items:center;
+    border-radius: 25px;
+    color: white;
+}
